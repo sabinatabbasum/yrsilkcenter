@@ -1,0 +1,55 @@
+
+body{
+    margin: auto;
+}
+
+
+
+
+#main
+{
+    block-size: auto;
+    height: 500px;
+    border: 2%;
+    border-color: aqua;
+    border-style: groove;
+}
+
+
+.tileContainer
+{
+    width: 30%;
+height:180px;
+box-shadow: 10px 20px 10px gray;
+float:left;
+margin-top: 2%;
+margin-left: 2%;
+}
+.tileComponent1{
+width:50%;
+height: 180px;
+float: left;
+}
+.tileComponent1 > img{
+width:100%;
+height:100%;
+}
+
+.tileComponent2{
+width: 45%;
+float: left;
+}
+
+.componentSubHeading{
+
+color:gray;
+font-size: 20px;
+
+
+}
+
+footer{
+height:160px;
+background-color: gold;
+
+}
